@@ -1,4 +1,4 @@
-# Login PHP con SQLite (paradigma procedural).
+# Login PHP con SQLite (paradigma oriendato a objetos).
 
 Proyecto básico para demostrar el funcionamiento de la clase SQLite3 realizando un login en PHP haciendo uso del paradigma orientado a objetos.
 La base de datos tiene una tabla llamada "users" donde se almacena la información de los usuarios. El sistema de login hace uso de hashes para almacenar las contraseñas cifradas y que no queden visibles. Pare manejar una sola conexión a la BD, se ha implementado el patrón singleton en la clase padre de todos los DAOs.
